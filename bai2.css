@@ -1,0 +1,109 @@
+/* ===========================
+   CÁC QUY TẮC CƠ BẢN (BÀI 1)
+   =========================== */
+
+/* Font và kích thước cho nội dung */
+main {
+  background-color: #f9f9f9;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  padding: 20px;
+}
+
+/* Màu nền cho tiêu đề */
+header {
+  background-color: #0077b6;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Màu nền cho thanh điều hướng */
+nav {
+  background-color: #48cae4;
+  width: 80%;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+}
+
+/* (Bài 2 yêu cầu) Gỡ kiểu cho li — ta chỉ tạm ghi chú */
+ /* li {
+   display: inline-block;
+   width: 20%;
+ } */
+
+/* Căn chỉnh, phông chữ và màu chữ cho tiêu đề */
+h1 {
+  text-align: center;
+  font-family: "Trebuchet MS", sans-serif;
+  color: #03045e;
+}
+
+/* Chiều cao dòng cho đoạn văn */
+p {
+  line-height: 1.6;
+}
+
+/* Màu nền cho footer */
+footer {
+  background-color: #023e8a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* ===========================
+   CÁC QUY TẮC MỚI (BÀI 2)
+   =========================== */
+
+/* Liên kết “Chuyển đến nội dung chính” */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #0077b6;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+}
+.skip-link:focus {
+  top: 10px;
+}
+
+/* Nav ảnh nhỏ lại 10% */
+nav img {
+  width: 10%;
+}
+
+/* GRID layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 20px;
+}
+
+/* Ảnh trong grid */
+.grid img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* FLEX layout */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Ghi chú li nếu bạn muốn bật lại:
+li {
+  display: inline-block;
+  width: 20%;
+}
+*/
