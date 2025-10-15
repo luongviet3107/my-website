@@ -1,0 +1,51 @@
+/* Quy tắc cho thẻ nội dung (content) */
+content {
+    font-family: "Arial", sans-serif;   /* Họ phông chữ */
+    font-size: 16px;                    /* Kích thước phông chữ */
+}
+
+/* Quy tắc cho thẻ tiêu đề (header) */
+header {
+    background-color: #4CAF50;          /* Màu nền */
+    padding: 15px;
+}
+
+/* Quy tắc cho thẻ điều hướng (nav) */
+nav {
+    background-color: #333;             /* Màu nền */
+    padding: 10px;
+}
+
+/* Quy tắc cho thẻ chính (main) */
+main {
+    background-color: #f2f2f2;          /* Màu nền */
+    font-size: 18px;                    /* Kích thước phông chữ */
+    padding: 20px;
+}
+
+/* Quy tắc cho thẻ chân trang (footer) */
+footer {
+    background-color: #222;             /* Màu nền */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Quy tắc cho danh sách (li) */
+li {
+    display: inline-block;              /* Hiển thị cùng hàng */
+    width: 120px;                       /* Chiều rộng mỗi mục */
+    text-align: center;
+}
+
+/* Quy tắc cho tiêu đề lớn (h1) */
+h1 {
+    text-align: center;                 /* Căn giữa văn bản */
+    font-family: "Verdana", sans-serif; /* Họ phông chữ */
+    color: #2c3e50;                     /* Màu chữ */
+}
+
+/* Quy tắc cho đoạn văn (p) */
+p {
+    line-height: 1.6;                   /* Chiều cao dòng */
+}
